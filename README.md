@@ -254,4 +254,4 @@ EXPOSE 80
 
 ## Known Limitations
 
-The container runs Gunicorn directly, which is not recommended in a production setting. The recommended production configuration is to [run Gunicorn behind a reverse proxy such as Nginx](https://docs.gunicorn.org/en/stable/deploy.html) to prevent potential denial of service attacks. Thanks
+The container runs Gunicorn directly, which is not recommended in a production setting. The recommended production configuration is to [run Gunicorn behind a reverse proxy such as Nginx](https://docs.gunicorn.org/en/stable/deploy.html) to prevent potential denial of service attacks. Thankyou
